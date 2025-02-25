@@ -1,5 +1,9 @@
 # Komendantov-Kononenko model implementation for a CPG with 3 neurons in a SIEC configuration
 
+## Note:
+If you use this code please cite the following paper:
+Theoretical bases for the relation between excitability, variability and synchronization in sequential neural dynamics. Blanca Berbel, Roberto Latorre, Pablo Varona. 2025 Neurocomputing. 
+
 ## Description
 
 This project contains a C implementation of a Komendantov-Kononenko model for a CPG containing a slow-inhibited electrically coupled (SIEC) neuron. It reads initial conditions from an input file (`initial_parameters`), processes the data, and generates multiple output files for analysis of the potential and electrical current for each neuron in the CPG.
